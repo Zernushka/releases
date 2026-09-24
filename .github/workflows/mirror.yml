@@ -2,7 +2,7 @@ name: mirror releases
 
 on:
   schedule:
-    - cron: "17 */3 * * *"   # каждые 3 часа
+    - cron: "*/15 * * * *"   # каждые 15 минут (пустой прогон ~20 с; публичный репозиторий — минуты бесплатны)
   workflow_dispatch: {}
   push:
     branches: [main]

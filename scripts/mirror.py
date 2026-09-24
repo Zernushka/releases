@@ -46,6 +46,13 @@ def sums():
 
 
 def whats_new(version):
+    # 24.09.2026: основной источник — release.json (коротко + подробно), запасной — appcast.xml
+    try:
+        r = json.loads(get(BASE + "release.json"))
+        if r.get("version") == version and r.get("notes_short"):
+            return (r["notes_short"] + ("\n\n" + r["notes_full"] if r.get("notes_full") else "")).strip()
+    except Exception:
+        pass
     try:
         root = ET.fromstring(get(BASE + "appcast.xml"))
     except Exception:
