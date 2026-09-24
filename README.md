@@ -18,6 +18,6 @@
 - Сборки сюда копирует автоматический процесс (`.github/workflows/mirror.yml`): он скачивает файлы с официальной раздачи и публикует их **только если SHA-256 совпал** с официальным списком `https://зернушка.рф/dl/SHA256SUMS`. Суммы продублированы в описании каждого релиза.
 - Проверить у себя: Windows — `certutil -hashfile файл SHA256`, Linux/macOS — `sha256sum файл`.
 
-Подписка, поддержка и вход в аккаунт — в Telegram: [@ZernushkaVPN_Bot](https://t.me/ZernushkaVPN_Bot), поддержка — [@Zernushka_support_bot](https://t.me/Zernushka_support_bot).
+Подписка, поддержка и вход в аккаунт — в Telegram: [@Zernushka_bot](https://t.me/Zernushka_bot), поддержка — [@Zernushka_support_bot](https://t.me/Zernushka_support_bot).
 
 Исходного кода в этом репозитории нет — только сборки и скрипт зеркалирования.
