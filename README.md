@@ -2,7 +2,6 @@
 
 <p align="center">
   <a href="../../releases/latest"><img alt="Последняя версия" src="https://img.shields.io/github/v/release/Zernushka/releases?style=for-the-badge&label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=2E7D32"></a>
-  <a href="../../releases"><img alt="Скачиваний" src="https://img.shields.io/github/downloads/Zernushka/releases/total?style=for-the-badge&label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=546E7A"></a>
   <a href="../../actions/workflows/mirror.yml"><img alt="Зеркало" src="https://img.shields.io/github/actions/workflow/status/Zernushka/releases/mirror.yml?style=for-the-badge&label=%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D0%BE"></a>
 </p>
 
